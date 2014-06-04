@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD6BFF66193D757A00190096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF65193D757A00190096 /* Foundation.framework */; };
+		FD6BFF68193D757A00190096 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF67193D757A00190096 /* CoreGraphics.framework */; };
+		FD6BFF6A193D757A00190096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF69193D757A00190096 /* UIKit.framework */; };
+		FD6BFF70193D757A00190096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6BFF6E193D757A00190096 /* InfoPlist.strings */; };
+		FD6BFF72193D757A00190096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6BFF71193D757A00190096 /* main.m */; };
+		FD6BFF76193D757A00190096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6BFF75193D757A00190096 /* AppDelegate.m */; };
+		FD6BFF79193D757A00190096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6BFF77193D757A00190096 /* Main.storyboard */; };
+		FD6BFF7C193D757A00190096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6BFF7B193D757A00190096 /* ViewController.m */; };
+		FD6BFF7E193D757A00190096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6BFF7D193D757A00190096 /* Images.xcassets */; };
+		FD6BFF85193D757A00190096 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF84193D757A00190096 /* XCTest.framework */; };
+		FD6BFF86193D757A00190096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF65193D757A00190096 /* Foundation.framework */; };
+		FD6BFF87193D757A00190096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF69193D757A00190096 /* UIKit.framework */; };
+		FD6BFF8F193D757A00190096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6BFF8D193D757A00190096 /* InfoPlist.strings */; };
+		FD6BFF91193D757A00190096 /* HelloCrashlyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6BFF90193D757A00190096 /* HelloCrashlyticsTests.m */; };
+		FD6BFF9C193D76E500190096 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BFF9B193D76E500190096 /* Crashlytics.framework */; };
+		FDA039C0193ECF8700CDFE59 /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA039BF193ECF8700CDFE59 /* ListController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6BFF88193D757A00190096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6BFF5A193D757A00190096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6BFF61193D757A00190096;
+			remoteInfo = HelloCrashlytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD6BFF62193D757A00190096 /* HelloCrashlytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCrashlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6BFF65193D757A00190096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD6BFF67193D757A00190096 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD6BFF69193D757A00190096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD6BFF6D193D757A00190096 /* HelloCrashlytics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCrashlytics-Info.plist"; sourceTree = "<group>"; };
+		FD6BFF6F193D757A00190096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD6BFF71193D757A00190096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD6BFF73193D757A00190096 /* HelloCrashlytics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCrashlytics-Prefix.pch"; sourceTree = "<group>"; };
+		FD6BFF74193D757A00190096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD6BFF75193D757A00190096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD6BFF78193D757A00190096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD6BFF7A193D757A00190096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD6BFF7B193D757A00190096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD6BFF7D193D757A00190096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD6BFF83193D757A00190096 /* HelloCrashlyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCrashlyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6BFF84193D757A00190096 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD6BFF8C193D757A00190096 /* HelloCrashlyticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCrashlyticsTests-Info.plist"; sourceTree = "<group>"; };
+		FD6BFF8E193D757A00190096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD6BFF90193D757A00190096 /* HelloCrashlyticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCrashlyticsTests.m; sourceTree = "<group>"; };
+		FD6BFF9B193D76E500190096 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		FDA039BE193ECF8700CDFE59 /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListController.h; sourceTree = "<group>"; };
+		FDA039BF193ECF8700CDFE59 /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6BFF5F193D757A00190096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BFF68193D757A00190096 /* CoreGraphics.framework in Frameworks */,
+				FD6BFF6A193D757A00190096 /* UIKit.framework in Frameworks */,
+				FD6BFF9C193D76E500190096 /* Crashlytics.framework in Frameworks */,
+				FD6BFF66193D757A00190096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6BFF80193D757A00190096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BFF85193D757A00190096 /* XCTest.framework in Frameworks */,
+				FD6BFF87193D757A00190096 /* UIKit.framework in Frameworks */,
+				FD6BFF86193D757A00190096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD6BFF59193D757A00190096 = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF9B193D76E500190096 /* Crashlytics.framework */,
+				FD6BFF6B193D757A00190096 /* HelloCrashlytics */,
+				FD6BFF8A193D757A00190096 /* HelloCrashlyticsTests */,
+				FD6BFF64193D757A00190096 /* Frameworks */,
+				FD6BFF63193D757A00190096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6BFF63193D757A00190096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF62193D757A00190096 /* HelloCrashlytics.app */,
+				FD6BFF83193D757A00190096 /* HelloCrashlyticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6BFF64193D757A00190096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF65193D757A00190096 /* Foundation.framework */,
+				FD6BFF67193D757A00190096 /* CoreGraphics.framework */,
+				FD6BFF69193D757A00190096 /* UIKit.framework */,
+				FD6BFF84193D757A00190096 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6BFF6B193D757A00190096 /* HelloCrashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF74193D757A00190096 /* AppDelegate.h */,
+				FD6BFF75193D757A00190096 /* AppDelegate.m */,
+				FD6BFF77193D757A00190096 /* Main.storyboard */,
+				FD6BFF7A193D757A00190096 /* ViewController.h */,
+				FD6BFF7B193D757A00190096 /* ViewController.m */,
+				FDA039BE193ECF8700CDFE59 /* ListController.h */,
+				FDA039BF193ECF8700CDFE59 /* ListController.m */,
+				FD6BFF7D193D757A00190096 /* Images.xcassets */,
+				FD6BFF6C193D757A00190096 /* Supporting Files */,
+			);
+			path = HelloCrashlytics;
+			sourceTree = "<group>";
+		};
+		FD6BFF6C193D757A00190096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF6D193D757A00190096 /* HelloCrashlytics-Info.plist */,
+				FD6BFF6E193D757A00190096 /* InfoPlist.strings */,
+				FD6BFF71193D757A00190096 /* main.m */,
+				FD6BFF73193D757A00190096 /* HelloCrashlytics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6BFF8A193D757A00190096 /* HelloCrashlyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF90193D757A00190096 /* HelloCrashlyticsTests.m */,
+				FD6BFF8B193D757A00190096 /* Supporting Files */,
+			);
+			path = HelloCrashlyticsTests;
+			sourceTree = "<group>";
+		};
+		FD6BFF8B193D757A00190096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BFF8C193D757A00190096 /* HelloCrashlyticsTests-Info.plist */,
+				FD6BFF8D193D757A00190096 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6BFF61193D757A00190096 /* HelloCrashlytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6BFF94193D757A00190096 /* Build configuration list for PBXNativeTarget "HelloCrashlytics" */;
+			buildPhases = (
+				FD6BFF5E193D757A00190096 /* Sources */,
+				FD6BFF5F193D757A00190096 /* Frameworks */,
+				FD6BFF60193D757A00190096 /* Resources */,
+				FD6BFF9A193D759A00190096 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCrashlytics;
+			productName = HelloCrashlytics;
+			productReference = FD6BFF62193D757A00190096 /* HelloCrashlytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6BFF82193D757A00190096 /* HelloCrashlyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6BFF97193D757A00190096 /* Build configuration list for PBXNativeTarget "HelloCrashlyticsTests" */;
+			buildPhases = (
+				FD6BFF7F193D757A00190096 /* Sources */,
+				FD6BFF80193D757A00190096 /* Frameworks */,
+				FD6BFF81193D757A00190096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6BFF89193D757A00190096 /* PBXTargetDependency */,
+			);
+			name = HelloCrashlyticsTests;
+			productName = HelloCrashlyticsTests;
+			productReference = FD6BFF83193D757A00190096 /* HelloCrashlyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6BFF5A193D757A00190096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gguser;
+				TargetAttributes = {
+					FD6BFF82193D757A00190096 = {
+						TestTargetID = FD6BFF61193D757A00190096;
+					};
+				};
+			};
+			buildConfigurationList = FD6BFF5D193D757A00190096 /* Build configuration list for PBXProject "HelloCrashlytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD6BFF59193D757A00190096;
+			productRefGroup = FD6BFF63193D757A00190096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6BFF61193D757A00190096 /* HelloCrashlytics */,
+				FD6BFF82193D757A00190096 /* HelloCrashlyticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6BFF60193D757A00190096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BFF7E193D757A00190096 /* Images.xcassets in Resources */,
+				FD6BFF70193D757A00190096 /* InfoPlist.strings in Resources */,
+				FD6BFF79193D757A00190096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6BFF81193D757A00190096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BFF8F193D757A00190096 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD6BFF9A193D759A00190096 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run b24811812234ffa561aad8e029c3728e545797bb a54ca69a73c276a806174760e762497f136e36b4b2636d4f379b8449f32176e4";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6BFF5E193D757A00190096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BFF7C193D757A00190096 /* ViewController.m in Sources */,
+				FD6BFF76193D757A00190096 /* AppDelegate.m in Sources */,
+				FD6BFF72193D757A00190096 /* main.m in Sources */,
+				FDA039C0193ECF8700CDFE59 /* ListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6BFF7F193D757A00190096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BFF91193D757A00190096 /* HelloCrashlyticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6BFF89193D757A00190096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6BFF61193D757A00190096 /* HelloCrashlytics */;
+			targetProxy = FD6BFF88193D757A00190096 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD6BFF6E193D757A00190096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6BFF6F193D757A00190096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD6BFF77193D757A00190096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6BFF78193D757A00190096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6BFF8D193D757A00190096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6BFF8E193D757A00190096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6BFF92193D757A00190096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD6BFF93193D757A00190096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6BFF95193D757A00190096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCrashlytics/HelloCrashlytics-Prefix.pch";
+				INFOPLIST_FILE = "HelloCrashlytics/HelloCrashlytics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD6BFF96193D757A00190096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCrashlytics/HelloCrashlytics-Prefix.pch";
+				INFOPLIST_FILE = "HelloCrashlytics/HelloCrashlytics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FD6BFF98193D757A00190096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloCrashlytics.app/HelloCrashlytics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCrashlytics/HelloCrashlytics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloCrashlyticsTests/HelloCrashlyticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FD6BFF99193D757A00190096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloCrashlytics.app/HelloCrashlytics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCrashlytics/HelloCrashlytics-Prefix.pch";
+				INFOPLIST_FILE = "HelloCrashlyticsTests/HelloCrashlyticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD6BFF5D193D757A00190096 /* Build configuration list for PBXProject "HelloCrashlytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6BFF92193D757A00190096 /* Debug */,
+				FD6BFF93193D757A00190096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6BFF94193D757A00190096 /* Build configuration list for PBXNativeTarget "HelloCrashlytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6BFF95193D757A00190096 /* Debug */,
+				FD6BFF96193D757A00190096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6BFF97193D757A00190096 /* Build configuration list for PBXNativeTarget "HelloCrashlyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6BFF98193D757A00190096 /* Debug */,
+				FD6BFF99193D757A00190096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6BFF5A193D757A00190096 /* Project object */;
+}
