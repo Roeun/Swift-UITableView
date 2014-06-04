@@ -15,6 +15,13 @@
 {
     // Override point for customization after application launch.
   [Crashlytics startWithAPIKey:@"b24811812234ffa561aad8e029c3728e545797bb"];
+  
+  /* user information - optional */
+//  [Crashlytics setUserEmail:@"cr@goldengekko.com"];
+//  [Crashlytics setUserName:@"Roeun Chhorn"];
+//  [Crashlytics setUserIdentifier:@"123"];
+//  
+//  [[Crashlytics sharedInstance] crash];
     return YES;
 }
 							

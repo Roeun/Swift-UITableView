@@ -33,5 +33,6 @@
 
 
 - (IBAction)actionButton:(id)sender {
+  [self test];
 }
 @end
